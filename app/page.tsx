@@ -1,7 +1,5 @@
 import Image from "next/image";
 import DigitalGlobe from "../components/DigitalGlobe";
-import PartnerShowcase from "../components/PartnerShowcase";
-import SpeakerLineup from "../components/SpeakerLineup";
 
 const services = [
   ["01", "Digital presence", "Website development, design, content, search visibility, and campaigns that help your business get found."],
@@ -78,12 +76,9 @@ export default function Home() {
           <li><span>02</span> Skills &amp; guidance</li>
           <li><span>03</span> Industry connections</li>
         </ul>
-        <div className="initiative-actions"><a className="initiative-link" href="https://bits.premanni.com" target="_blank" rel="noopener noreferrer">Explore the BITs program <ArrowUpRight /></a><div className="bits-social"><span>Follow Premanni</span><a href="https://www.linkedin.com/in/premannitech/" target="_blank" rel="noopener noreferrer"><SocialIcon name="linkedin" /> LinkedIn</a><a href="https://www.facebook.com/premannitech/" target="_blank" rel="noopener noreferrer"><SocialIcon name="facebook" /> Facebook</a><a href="https://www.instagram.com/pre.manni/" target="_blank" rel="noopener noreferrer"><SocialIcon name="instagram" /> Instagram</a></div></div>
+        <div className="initiative-actions"><a className="initiative-link" href="https://bits.premanni.com" target="_blank" rel="noopener noreferrer">Explore the BITs program <ArrowUpRight /></a><div className="bits-social"><span>Follow Premanni</span><a href="https://www.linkedin.com/company/pr%C3%A9manni-technologies-ltd/" target="_blank" rel="noopener noreferrer"><SocialIcon name="linkedin" /> LinkedIn</a><a href="https://www.facebook.com/premannitech/" target="_blank" rel="noopener noreferrer"><SocialIcon name="facebook" /> Facebook</a><a href="https://www.instagram.com/pre.manni/" target="_blank" rel="noopener noreferrer"><SocialIcon name="instagram" /> Instagram</a></div></div>
       </div>
     </section>
-
-    <SpeakerLineup />
-    <PartnerShowcase />
 
     <section className="people-section" aria-labelledby="people-title">
       <div className="people-heading"><p className="section-label">Who we build with</p><h2 id="people-title">Progress looks different for every team.</h2></div>
@@ -95,6 +90,6 @@ export default function Home() {
     </section>
 
     <section className="contact-section" aria-labelledby="contact-title"><p className="section-label">Let&apos;s build what&apos;s next</p><h2 id="contact-title">Have a challenge worth solving?</h2><a href="mailto:info@premanni.com" className="contact-email">info@premanni.com <ArrowUpRight /></a></section>
-    <footer className="site-footer"><a className="footer-brand" href="#top"><Image src="/premanni-logo.avif" alt="Premanni Technologies" width={34} height={34} /><span>Premanni Technologies</span></a><p>© {new Date().getFullYear()} Premanni Technologies</p><div><a href="https://bits.premanni.com" target="_blank" rel="noopener noreferrer">BITs</a><a href="mailto:info@premanni.com">Email</a></div><nav className="footer-social" aria-label="Premanni social media"><a href="https://www.linkedin.com/in/premannitech/" target="_blank" rel="noopener noreferrer" aria-label="Premanni on LinkedIn"><SocialIcon name="linkedin" /></a><a href="https://www.facebook.com/premannitech/" target="_blank" rel="noopener noreferrer" aria-label="Premanni on Facebook"><SocialIcon name="facebook" /></a><a href="https://www.instagram.com/pre.manni/" target="_blank" rel="noopener noreferrer" aria-label="Premanni on Instagram"><SocialIcon name="instagram" /></a></nav></footer>
+    <footer className="site-footer"><a className="footer-brand" href="#top"><Image src="/premanni-logo.avif" alt="Premanni Technologies" width={34} height={34} /><span>Premanni Technologies</span></a><p>© {new Date().getFullYear()} Premanni Technologies</p><div><a href="https://bits.premanni.com" target="_blank" rel="noopener noreferrer">BITs</a><a href="mailto:info@premanni.com">Email</a></div><nav className="footer-social" aria-label="Premanni social media"><a href="https://www.linkedin.com/company/pr%C3%A9manni-technologies-ltd/" target="_blank" rel="noopener noreferrer" aria-label="Premanni on LinkedIn"><SocialIcon name="linkedin" /></a><a href="https://www.facebook.com/premannitech/" target="_blank" rel="noopener noreferrer" aria-label="Premanni on Facebook"><SocialIcon name="facebook" /></a><a href="https://www.instagram.com/pre.manni/" target="_blank" rel="noopener noreferrer" aria-label="Premanni on Instagram"><SocialIcon name="instagram" /></a></nav></footer>
   </main>;
 }
