@@ -1,5 +1,7 @@
 import Image from "next/image";
 import DigitalGlobe from "../components/DigitalGlobe";
+import PartnerShowcase from "../components/PartnerShowcase";
+import SpeakerLineup from "../components/SpeakerLineup";
 
 const services = [
   ["01", "Digital presence", "Website development, design, content, search visibility, and campaigns that help your business get found."],
@@ -79,6 +81,9 @@ export default function Home() {
         <div className="initiative-actions"><a className="initiative-link" href="https://bits.premanni.com" target="_blank" rel="noopener noreferrer">Explore the BITs program <ArrowUpRight /></a><div className="bits-social"><span>Follow Premanni</span><a href="https://www.linkedin.com/in/premannitech/" target="_blank" rel="noopener noreferrer"><SocialIcon name="linkedin" /> LinkedIn</a><a href="https://www.facebook.com/premannitech/" target="_blank" rel="noopener noreferrer"><SocialIcon name="facebook" /> Facebook</a><a href="https://www.instagram.com/pre.manni/" target="_blank" rel="noopener noreferrer"><SocialIcon name="instagram" /> Instagram</a></div></div>
       </div>
     </section>
+
+    <SpeakerLineup />
+    <PartnerShowcase />
 
     <section className="people-section" aria-labelledby="people-title">
       <div className="people-heading"><p className="section-label">Who we build with</p><h2 id="people-title">Progress looks different for every team.</h2></div>
